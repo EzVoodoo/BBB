@@ -6,4 +6,5 @@ echo "Updating the nameserver entry"
 echo "nameserver 114.114.114.114" >> /etc/resolv.conf
  
 echo "Setting the time using the Chinese ntp pool"
-/usr/bin/ntpdate -b -s -u 210.72.145.44
+/usr/bin/ntpdate -b -s -u us.pool.ntp.org
+
