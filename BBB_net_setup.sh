@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Setting up the default gateway"
+echo "Setting up the default gateway (Baidu ip:115.239.210.27)"
 /sbin/route add default gw 192.168.7.1
  
 echo "Updating the nameserver entry"
